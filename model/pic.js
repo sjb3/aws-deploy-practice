@@ -7,7 +7,7 @@ const picSchema = mongoose.Schema({
   desc: {type: String, required: true},
   userID: {type: mongoose.Schema.Types.ObjectId, required: true},
   galleryID: {type: mongoose.Schema.Types.ObjectId, required: true},
-  imageURI: {type: String, required: true unique:true},
+  imageURI: {type: String, required: true unique:true}, 
   created: {type: Date, default: Date.now},
 })
 
